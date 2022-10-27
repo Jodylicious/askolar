@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/askolar/static/css/main.eb1e2828.css",
-    "main.js": "/askolar/static/js/main.f7b0bdd4.js",
+    "main.css": "/askolar/static/css/main.6a4d0151.css",
+    "main.js": "/askolar/static/js/main.802a4136.js",
     "static/media/campus.png": "/askolar/static/media/campus.173e4455706cfe3c6a4a.png",
     "static/media/PIIE.jpg": "/askolar/static/media/PIIE.765ec1cdfb9862aa7b5a.jpg",
     "static/media/YES.png": "/askolar/static/media/YES.dd3cbbc13c098fb0c1a8.png",
@@ -15,11 +15,11 @@
     "static/media/bot3.png": "/askolar/static/media/bot3.bb4579c39ed87d9ac53f.png",
     "static/media/ISKOM.jpg": "/askolar/static/media/ISKOM.8b84c420d615827655ea.jpg",
     "index.html": "/askolar/index.html",
-    "main.eb1e2828.css.map": "/askolar/static/css/main.eb1e2828.css.map",
-    "main.f7b0bdd4.js.map": "/askolar/static/js/main.f7b0bdd4.js.map"
+    "main.6a4d0151.css.map": "/askolar/static/css/main.6a4d0151.css.map",
+    "main.802a4136.js.map": "/askolar/static/js/main.802a4136.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb1e2828.css",
-    "static/js/main.f7b0bdd4.js"
+    "static/css/main.6a4d0151.css",
+    "static/js/main.802a4136.js"
   ]
 }
