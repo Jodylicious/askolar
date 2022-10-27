@@ -1,25 +1,45 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import { Book, Home, Info, Pages } from '@mui/icons-material';
+import { Link, Routes, Route } from 'react-router-dom';
+import Homepage from './components/Homepage';
+import ChatApp from './components/ChatApp';
+import About from './components/About';
+import Website from './components/Website';
+import Courses from './components/Courses';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      <div className='navHeader'>
+        <nav className='navBar'>
+          <ul className="navlist">
+            <li className="navitems">
+              <Link to="/"><Home /></Link>
+            </li>
+            <li className="navitems">
+              <Link to="/website"><Pages /></Link>
+            </li>
+            <li className="navitems">
+              <Link to="/courses"><Book /></Link>
+            </li>
+            <li className="navitems">
+              <Link to="/about"><Info /></Link>
+            </li>
 
+          </ul>
+        </nav>
+
+        <Routes>
+          <Route exact path="/" element={<Homepage />} />
+          <Route exact path="/homepage" element={<Homepage />} />
+          <Route exact path="/website" element={<Website />} />
+          <Route exact path="/courses" element={<Courses />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/chatapp" element={<ChatApp />} />
+        </Routes>
+      </div>
+    </>
+  );
+};
 export default App;
