@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import { Book, Home, Info, Pages } from '@mui/icons-material';
+import { Home, Info, School, Web } from '@mui/icons-material';
 import { Link, Routes, Route } from 'react-router-dom';
 import Homepage from './components/Homepage';
 import ChatApp from './components/ChatApp';
@@ -18,10 +18,10 @@ function App() {
               <Link to="/"><Home /></Link>
             </li>
             <li className="navitems">
-              <Link to="/website"><Pages /></Link>
+              <Link to="/website"><Web /></Link>
             </li>
             <li className="navitems">
-              <Link to="/courses"><Book /></Link>
+              <Link to="/courses"><School /></Link>
             </li>
             <li className="navitems">
               <Link to="/about"><Info /></Link>

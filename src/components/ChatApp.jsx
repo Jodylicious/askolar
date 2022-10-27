@@ -1,6 +1,6 @@
 import React from 'react';
 import Chatbot from 'react-best-chatbot';
-import { Close, Refresh} from '@mui/icons-material';
+import { Close, Refresh } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import ModalImage from "react-modal-image";
 import IBITS from '../assets/images/puporg/IBITS.jpg';
@@ -59,7 +59,11 @@ const options = {
   chatButtonComponent: (
     <div className='container' >
       <div className='chatHome'>
-        <img src={(bot3)} className='botImage' width='250px' alt="botAvatar" ></img>
+      <div className='returnQuotes'>
+            " Chatbots are useful because they make you feel less silly when you ask important questions. Talking to someone can be scary at times. Speaking with a chatbot makes this much easier! "
+        </div>
+        
+        <img src={(bot3)} className='botImage' width='150px' alt="botAvatar" ></img>
 
         <div className='chatNav'>
           <Link to="/homepage">
@@ -79,9 +83,9 @@ const options = {
 const webpage = () => {
   return (
     <div className='orgbubble'>
-Here's the official PUPBC websites, you can visit:
+      Here's the official PUPBC websites, you can visit:
       <div className='orgSlide'>
-        
+
         <div className='orgPage'>
           <img src={(puplogo)} width='80px' alt="ibits" ></img>
           <div className='orgName'>PUPBC Official Facebook Page</div>
@@ -98,7 +102,7 @@ Here's the official PUPBC websites, you can visit:
           </div>
         </div>
 
-      <div className='orgPage'>
+        <div className='orgPage'>
           <img src={(CSC)} width='80px' alt='csc'></img>
           <div className='orgName'>Central Student Council</div>
           <div className='orgBtn'>
@@ -115,7 +119,7 @@ Here's the official PUPBC websites, you can visit:
         </div>
 
         <div className='orgPage'>
-          <img src={(ISKOM)} width='80px'height={70} alt='iskom'></img>
+          <img src={(ISKOM)} width='80px' height={70} alt='iskom'></img>
           <div className='orgName'>PUPBC ISKOMUNITY A.Y 2022-2023</div>
           <div className='orgBtn'>
             <button className='orgFb'><a href='https://web.facebook.com/groups/519226440018420'>Visit Page</a></button>
@@ -602,8 +606,8 @@ const steps = [
     content: (
       <div className='admin'>
         <h4>PUPBC Administrators</h4><br />
-        <h4>Marge Sevilla</h4> <p>Campus Director</p><br/>
-        <h4>Cheryl Joyce Jurado</h4><p> Head of PUPBC Student Affairs and Services</p><br/>
+        <h4>Marge Sevilla</h4> <p>Campus Director</p><br />
+        <h4>Cheryl Joyce Jurado</h4><p> Head of PUPBC Student Affairs and Services</p><br />
         <h4>Jocelyn Quinto</h4><p>Campus Registrar</p>
       </div>
     ),
