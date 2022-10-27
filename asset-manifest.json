@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/askolar/static/css/main.eb1e2828.css",
+    "main.js": "/askolar/static/js/main.888878bb.js",
+    "static/media/bot3.png": "/askolar/static/media/bot3.bb4579c39ed87d9ac53f.png",
+    "index.html": "/askolar/index.html",
+    "main.eb1e2828.css.map": "/askolar/static/css/main.eb1e2828.css.map",
+    "main.888878bb.js.map": "/askolar/static/js/main.888878bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb1e2828.css",
+    "static/js/main.888878bb.js"
+  ]
+}
