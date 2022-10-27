@@ -14,32 +14,39 @@ const Home = () => {
         <div className="container">
             {/* create react card */}
 
-                <Card className='cardHome'>
-                    <CardActionArea>
-                        <CardMedia
-                            component="img"
-                            height="350"
-                            image="https://appinventiv.com/wp-content/uploads/sites/1/2021/08/chatbot-development-with-deep-nlp.png"
-                            alt="chatbot"
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5">
-                                HELLO, ka-ISKO at ISKA!
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                "We're no longer teaching people how to communicate with systems, we're teaching systems to communicate with people."
-                            </Typography>
-                            <br />
-                            <Typography>
-                                <button className="startChat">
-                                    <Link to="/chatapp">
-                                        <h3 className='chatTitle'>START CONVERSATION</h3>
-                                    </Link>
-                                </button>
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                </Card>
+            <Card className='cardHome'>
+                <CardActionArea>
+                    <CardMedia
+                        component="img"
+                        height="350"
+                        image="https://appinventiv.com/wp-content/uploads/sites/1/2021/08/chatbot-development-with-deep-nlp.png"
+                        alt="chatbot"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5">
+                            HELLO, ka-ISKO at ISKA!
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            "We're no longer teaching people how to communicate with systems, we're teaching systems to communicate with people."
+                        </Typography>
+                        <br />
+
+                        <div className='startButton'>
+                            <button className="startChat">
+                                <Link to="/chatapp">
+                                    <h3 className='chatTitle'>START CONVERSATION</h3>
+                                </Link>
+                            </button>
+                        </div>
+                        <div className='footer'>
+                            <h4> © 2022 PUPBC ASKOLAR</h4>
+                        </div>
+                    </CardContent>
+
+
+                </CardActionArea>
+            </Card>
+
         </div>
     );
 };

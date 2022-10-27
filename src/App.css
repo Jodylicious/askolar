@@ -49,9 +49,7 @@
 }
 
 .cardHome {
-  justify-content: space-evenly;
-  margin: 0 auto 0 auto;
-height: auto;
+  height: 90vh;
 }
 
 .startChat h3 {
@@ -68,9 +66,20 @@ height: auto;
   padding: 10px;
 }
 
+.startButton {
+  padding: 20px;
+}
+
 .startChat:hover {
   background-color: maroon;
   border: none;
+}
+
+.footer {
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  font-style: italic;
 }
 
 /* CHATBOT Message Box */
@@ -128,7 +137,7 @@ div.rbc-message {
 .chatHome {
   border-radius: 5px;
   padding: 20px;
-  background-image: linear-gradient(to right top, #d16b6b, #d57070,  #ea867e, #f18d7c, #f8947b, #ffa172, #ffb169, #ffc262, #fbd45f);
+  background-image: linear-gradient(to right top, #d16b6b, #d57070, #ea867e, #f18d7c, #f8947b, #ffa172, #ffb169, #ffc262, #fbd45f);
   height: 100vh;
 }
 
