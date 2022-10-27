@@ -30,23 +30,20 @@ const Home = () => {
                             "We're no longer teaching people how to communicate with systems, we're teaching systems to communicate with people."
                         </Typography>
                         <br />
-
-                        <div className='startButton'>
-                            <button className="startChat">
-                                <Link to="/chatapp">
-                                    <h3 className='chatTitle'>START CONVERSATION</h3>
-                                </Link>
-                            </button>
-                        </div>
-                        <div className='footer'>
-                            <h4> © 2022 PUPBC ASKOLAR</h4>
-                        </div>
                     </CardContent>
 
+                </CardActionArea>  <div className='startButton'>
+                    <button className="startChat">
+                        <Link to="/chatapp">
+                            <h3 className='chatTitle'>START CONVERSATION</h3>
+                        </Link>
+                    </button>
+                </div>
 
-                </CardActionArea>
             </Card>
-
+            <div className='footer'>
+                <h5> © 2022 PUPBC ASKOLAR</h5>
+            </div>
         </div>
     );
 };
