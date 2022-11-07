@@ -57,10 +57,10 @@ const options = {
     </div>
   ),
   chatButtonComponent: (
-    <div className='container' >
+    <div className='close-container' >
       <div className='chatHome'>
       <div className='returnQuotes'>
-            " Chatbots are useful because they make you feel less silly when you ask important questions. Talking to someone can be scary at times. Speaking with a chatbot makes this much easier! "
+      "We're no longer teaching people how to communicate with systems, we're teaching systems to communicate with people."
         </div>
         
         <img src={(bot3)} className='botImage' width='150px' alt="botAvatar" ></img>

@@ -41,13 +41,6 @@
   width: 100%;
 }
 
-.quotes {
-  border-radius: 5px;
-  padding: 20px;
-  background-image: linear-gradient(to left top, #d16b6b, #d57070, #da7575, #de7a7a, #e27f7f, #ea857e, #f18c7c, #f7937b, #fe9f72, #ffae6a, #ffbd63, #fbce5f);
-  height: 100vh;
-}
-
 .cardHome {
   height: 100vh;
 }
@@ -72,11 +65,13 @@
 }
 
 .footer {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  font-weight: 600;
-  font-style: italic;
+  position: relative;
+  width: 100%; 
+  background-color: #373737;
+}
+.footer-name{
+  padding: 10px;
+  color: #fcf6f6;
 }
 
 /* CHATBOT Message Box */
@@ -132,9 +127,8 @@ div.rbc-message {
 }
 
 .chatHome {
-  border-radius: 5px;
   padding: 20px;
-  background-image: linear-gradient(to right top, #d16b6b, #d57070, #ea867e, #f18d7c, #f8947b, #ffa172, #ffb169, #ffc262, #fbd45f);
+  background-image: linear-gradient(#d16b6b, #d57070, #ea867e, #ffa172);
   height: 100vh;
 }
 
@@ -143,12 +137,12 @@ div.rbc-message {
   padding: 15px;
   border: 1px solid gray;
   border-radius: 5px;
-  justify-content: center;
+  text-align: center;
 }
 
 .returnBtn {
   padding: 10px;
-  width: 80%;
+  width: 100%;
   border-radius: 5px;
   margin-bottom: 5px;
   text-align: center;
@@ -165,6 +159,10 @@ div.rbc-message {
 .returnBtn:hover {
   background-color: maroon;
   border: none;
+}
+
+.chatNav {
+  align-items: center;
 }
 
 
@@ -337,16 +335,15 @@ li {
 }
 
 .column {
-  background-color: cornsilk;
   margin-bottom: 15px;
   text-align: center;
-  border: 1px solid #373737;
+  border: 1px solid #b7b7b7;
   box-shadow: 5px 5px 5px gray;
 }
 
 .courseList {
   padding: 10px;
-  background-image: linear-gradient(#ffe878, #ffc825);
+  background-image: linear-gradient(#ffe878, #fece3f);
 }
 
 .poster {

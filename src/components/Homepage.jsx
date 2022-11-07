@@ -25,19 +25,20 @@ const Home = () => {
                         HELLO, ka-ISKO at ISKA!
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        "We're no longer teaching people how to communicate with systems, we're teaching systems to communicate with people."
+                        " Chatbots are useful because they make you feel less silly when you ask important questions. Talking to someone can be scary at times. Speaking with a chatbot makes this much easier! "
                     </Typography>
                 </CardContent>
 
-                    <button className="startChat">
-                        <Link to="/chatapp">
-                            <h3 className='chatTitle'>START CONVERSATION</h3>
-                        </Link>
-                    </button>
-                    <h5 className='footer'> © 2022 PUPBC ASKOLAR</h5>
-            
-            </Card>
+                <button className="startChat">
+                    <Link to="/chatapp">
+                        <h3 className='chatTitle'>START CONVERSATION</h3>
+                    </Link>
+                </button>
 
+            </Card>
+            <div className='footer'>
+                <h5 className='footer-name'> © 2022 PUPBC ASKOLAR</h5>
+            </div>
         </div>
     );
 };
