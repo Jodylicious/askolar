@@ -34,6 +34,15 @@
   text-align: center;
 }
 
+/* websites */
+.webPages {
+  margin-bottom: 15px;
+}
+
+.webPages a {
+  color: #ffffff;
+}
+
 /* HOMEPAGE */
 .container {
   padding: 10px;
@@ -361,11 +370,3 @@ li {
   margin-left: 15px;
 }
 
-/* websier */
-.webPages {
-  margin-bottom: 15px;
-}
-
-.webPages a {
-  color: #ffffff;
-}

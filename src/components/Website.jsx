@@ -144,7 +144,7 @@ const Website = () => {
                     <CardMedia
                         component="img"
                         height="150"
-                        image="https://scontent.fmnl3-3.fna.fbcdn.net/v/t39.30808-6/284422608_5054916684604294_7522294499720997223_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeE8x4jpp0t6fJhb3cDXiM06LSa9sEPTY9MtJr2wQ9Nj01nZBWKCHhHm0GNWcA_EgYDmyXj1geanCfNn6IRvTN9a&_nc_ohc=KTU02oke0K0AX-J2wG3&_nc_zt=23&_nc_ht=scontent.fmnl3-3.fna&oh=00_AT-kStcQbNY2EEuijVnPlA8VvjlWK4MNgYcCLl8A6tavcQ&oe=635B8CD9"
+                        image="https://i.imgur.com/3D8NQAI.jpg"
                         alt="pup"
                     />
                     <CardContent className='webTitles'>
