@@ -4,9 +4,6 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
-// import bot3 from '../assets/images/bot3.png';
-
-
 
 const Home = () => {
     return (
@@ -34,6 +31,11 @@ const Home = () => {
                         <h3 className='chatTitle'>START CONVERSATION</h3>
                     </Link>
                 </button>
+
+                 {/* FEEDBACK FORM */}
+                 <div className='feeds'>
+                        <button className='feedback-btn'> <a href='https://docs.google.com/forms/d/e/1FAIpQLScwgrTy4cNOWVC5IjKc5xonMJUIx-qPXXQyH7tz0fwdbxmWqQ/viewform'> Give us your feedback! </a></button>
+                    </div>
 
             </Card>
             <div className='footer'>

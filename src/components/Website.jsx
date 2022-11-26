@@ -5,7 +5,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
-
 const Website = () => {
     return (
         <div className="container">
@@ -31,7 +30,6 @@ const Website = () => {
                 </CardActions>
             </Card>
             {/* **************************** */}
-            
             <Card className='webPages'>
                 <CardActionArea>
                     <CardMedia
@@ -52,7 +50,6 @@ const Website = () => {
                 </CardActions>
             </Card>
             {/* **************************** */}
-
             <Card className='webPages'>
                 <CardActionArea>
                     <CardMedia

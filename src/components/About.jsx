@@ -76,6 +76,5 @@ export default function About() {
             </Divider>
             {disclamer}
         </div>
-
     );
 }

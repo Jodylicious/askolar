@@ -23,7 +23,6 @@
   padding: 5px;
   margin: 0;
   font-size: 20px;
-
 }
 
 .navitems a {
@@ -75,10 +74,11 @@
 
 .footer {
   position: relative;
-  width: 100%; 
+  width: 100%;
   background-color: #373737;
 }
-.footer-name{
+
+.footer-name {
   padding: 10px;
   color: #fcf6f6;
 }
@@ -176,14 +176,12 @@ div.rbc-message {
 
 
 /* Chatbot Customized Bubbles */
-
 /* ********* (AVAILABLE COURSES)********* */
 .courseList ul {
   padding-left: 20px;
 }
 
 /* *********** CUSTOMIZED CHAT BUBBLE ******************/
-
 .chatTitle {
   font-weight: 600;
 }
@@ -198,7 +196,6 @@ div.rbc-message {
 
 .nobubble h4 {
   font-weight: 550;
-
 }
 
 .nobubble p,
@@ -248,8 +245,6 @@ li {
   padding: 10px;
 }
 
-
-
 .orgBtn {
   padding: 10px;
 }
@@ -296,7 +291,7 @@ li {
 }
 
 
-/* About page */
+/************  About page ***************/
 .aboutApp {
   padding: 25px;
   padding-top: 0;
@@ -334,7 +329,7 @@ li {
 }
 
 
-/* courses */
+/******************** COURSES ******************/
 .courseTitle {
   /* background-color: maroon; */
   background: linear-gradient(#bf4343, #850a0a);
@@ -368,5 +363,75 @@ li {
 
 .courseBullet {
   margin-left: 15px;
+}
+
+/* *************** LOGIN FORM ********************** */
+.loginPage{
+  width: 100%;
+  padding: 50px 30px;
+}
+
+.loginForm{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 30px 15px;
+ text-align: center;
+background-color: #ffe8e8;
+}
+
+.userLogin{
+  padding-bottom: 20px;
+  width: 100%;
+}
+.userInput{
+  padding-bottom: 20px;
+}
+.userIcon{ 
+  border-radius: 30px;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+}
+.inputBox{
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  font-size: 14px;  
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.sub-Btn{
+  padding: 12px; 
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #f0eeee;
+  color: black
+}
+
+.sub-Btn:hover{
+  background-color: rgb(0, 110, 255);
+  color: white;
+  font-weight: 600;
+}
+
+.home-Btn{
+  padding: 10px; 
+  margin-top: 50px;
+  width: 50%;
+  border-radius: 5px;
+  font-weight: 550;
+  background-color: rgb(251, 180, 172);
+}
+.home-Btn:hover{
+  background-color: rgb(156, 34, 34);
+  color: white;
+  font-weight: 600;
+}
+
+.feeds{
+  margin-top: 10px;
+}
+.feedback-btn{
+  background: none;
+  border: none;
 }
 
