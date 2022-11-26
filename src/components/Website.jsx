@@ -9,7 +9,8 @@ const Website = () => {
     return (
         <div className="container">
             <h3 className="courseTitle">Related Websites and Pages</h3>
-     
+
+            {/* ************ PUPBC FB OFFICIAL **************** */}
             <Card className='webPages'>
                 <CardActionArea>
                     <CardMedia
@@ -19,7 +20,7 @@ const Website = () => {
                     />
                     <CardContent className='webTitles'>
                         <Typography>
-                        PUP Binan Official Facebook Page
+                            PUP Binan Official Facebook Page
                         </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -29,13 +30,14 @@ const Website = () => {
                     </Button>
                 </CardActions>
             </Card>
-            {/* **************************** */}
+
+            {/* ************ PUP ISKOMUNITY **************** */}
             <Card className='webPages'>
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         height="150"
-                        image="https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/311273841_479619094187641_6128168707740322774_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8631f5&_nc_eui2=AeGINyJoSX3ZSUS5KfXFAxIQZjJHAfKzAGJmMkcB8rMAYvY5QW15JIfhqTbM9o8Rq-t1rZJQMc8pQERnDs5dsZNi&_nc_ohc=cXJPvjT6poYAX9LXOP1&_nc_zt=23&_nc_ht=scontent.fmnl3-4.fna&oh=00_AT87gA2xOGfjBa6C7z8nqzd5aSRFkDXu-Ms236m7HioWqw&oe=635DBE61"
+                        image="https://www.othot.com/hubfs/student-success-journey-blog.jpg"
                     />
                     <CardContent className='webTitles'>
                         <Typography>
@@ -49,13 +51,14 @@ const Website = () => {
                     </Button>
                 </CardActions>
             </Card>
-            {/* **************************** */}
+
+            {/* ************ PUP SAS **************** */}
             <Card className='webPages'>
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         height="150"
-                        image="https://scontent.fmnl3-4.fna.fbcdn.net/v/t39.30808-6/305756424_578403234071536_3454547611055147681_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE7emxNf8fwVuVwuUVMGHmS5wBeHODm0NfnAF4c4ObQ1xziFezR5BTuK5bJ6S4B8ps3UvzLXR7W8ZSuIA33lVdk&_nc_ohc=V5bTYzqhbP0AX8GVRqM&_nc_zt=23&_nc_ht=scontent.fmnl3-4.fna&oh=00_AT_KHfU3Ero-MU6mBdG_GeWg03SRw8wxcEg_S-q1bDhImw&oe=635D795D"
+                        image="https://cpet.tc.columbia.edu/uploads/1/8/4/5/18456699/shutterstock-1812591067_orig.jpg"
                     />
                     <CardContent className='webTitles'>
                         <Typography>
@@ -69,18 +72,18 @@ const Website = () => {
                     </Button>
                 </CardActions>
             </Card>
-            {/* **************************** */}
 
+            {/* ************ PUPBC CSC **************** */}
             <Card className='webPages'>
                 <CardActionArea>
                     <CardMedia
                         component="img"
                         height="150"
-                        image="https://scontent.fmnl3-3.fna.fbcdn.net/v/t39.30808-6/280328862_3487937368099760_4159653879166269082_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeG1dg_b5Ag1q5H3-HDneR4A7VEfd5WOI7ftUR93lY4jt6hW850aH9ie6p1ri2XD46EkSKtPuyU6znHxIHEUKGyK&_nc_ohc=R2iujEwxu_QAX-nuuWd&_nc_zt=23&_nc_ht=scontent.fmnl3-3.fna&oh=00_AT-cEkpp8cOO-cyaBvakASY9xLYAtCsl3ixhqAyPZoZBYA&oe=635CFC33"
+                        image="https://scontent.fmnl6-1.fna.fbcdn.net/v/t39.30808-6/280328862_3487937368099760_4159653879166269082_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeG1dg_b5Ag1q5H3-HDneR4A7VEfd5WOI7ftUR93lY4jt6hW850aH9ie6p1ri2XD46EkSKtPuyU6znHxIHEUKGyK&_nc_ohc=_JzOQtBZkvIAX8e0JLt&_nc_zt=23&_nc_ht=scontent.fmnl6-1.fna&oh=00_AfAYxSwzgUZF8GI1UOSzR_MoJsd7M0BZlXxqgBt-ZefGKQ&oe=63868373"
                     />
                     <CardContent className='webTitles'>
                         <Typography>
-                           PUPBC Central Student Council
+                            PUPBC Central Student Council
                         </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -90,9 +93,8 @@ const Website = () => {
                     </Button>
                 </CardActions>
             </Card>
-            {/* **************************** */}
 
-
+            {/* ************ PUP SIS **************** */}
             <Card className='webPages'>
                 <CardActionArea>
                     <CardMedia
@@ -112,9 +114,8 @@ const Website = () => {
                     </Button>
                 </CardActions>
             </Card>
-            {/* **************************** */}
 
-            
+            {/* ************ PUP WEB OFFICIAL **************** */}
             <Card className='webPages'>
                 <CardActionArea>
                     <CardMedia
@@ -134,8 +135,8 @@ const Website = () => {
                     </Button>
                 </CardActions>
             </Card>
-            {/* *************************** */}
 
+            {/* ************ PUP FB OFFICIAL **************** */}
             <Card className='webPages'>
                 <CardActionArea>
                     <CardMedia
@@ -156,9 +157,6 @@ const Website = () => {
                     </Button>
                 </CardActions>
             </Card>
-            {/* *************************** */}
-
-       
 
         </div>
     );
