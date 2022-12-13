@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/askolar/static/css/main.5cd68ceb.css",
-    "main.js": "/askolar/static/js/main.18122202.js",
+    "main.css": "/askolar/static/css/main.e13cd802.css",
+    "main.js": "/askolar/static/js/main.90b0e8bf.js",
     "static/media/campus.png": "/askolar/static/media/campus.173e4455706cfe3c6a4a.png",
     "static/media/PIIE.jpg": "/askolar/static/media/PIIE.765ec1cdfb9862aa7b5a.jpg",
     "static/media/YES.png": "/askolar/static/media/YES.dd3cbbc13c098fb0c1a8.png",
     "static/media/puplogo.png": "/askolar/static/media/puplogo.9c5e2b32d329dfa66a6e.png",
     "static/media/ACES.png": "/askolar/static/media/ACES.bcdda7bc88af405dc37a.png",
+    "static/media/bg1.jpg": "/askolar/static/media/bg1.fd6478e4365f873cb587.jpg",
     "static/media/HRSS.png": "/askolar/static/media/HRSS.2051581b53316a2c44f5.png",
     "static/media/IBITS.jpg": "/askolar/static/media/IBITS.7313053e569244798c56.jpg",
     "static/media/JPIA.jpg": "/askolar/static/media/JPIA.90f470aa9037fc6567af.jpg",
@@ -15,11 +16,11 @@
     "static/media/bot3.png": "/askolar/static/media/bot3.bb4579c39ed87d9ac53f.png",
     "static/media/ISKOM.jpg": "/askolar/static/media/ISKOM.8b84c420d615827655ea.jpg",
     "index.html": "/askolar/index.html",
-    "main.5cd68ceb.css.map": "/askolar/static/css/main.5cd68ceb.css.map",
-    "main.18122202.js.map": "/askolar/static/js/main.18122202.js.map"
+    "main.e13cd802.css.map": "/askolar/static/css/main.e13cd802.css.map",
+    "main.90b0e8bf.js.map": "/askolar/static/js/main.90b0e8bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cd68ceb.css",
-    "static/js/main.18122202.js"
+    "static/css/main.e13cd802.css",
+    "static/js/main.90b0e8bf.js"
   ]
 }
