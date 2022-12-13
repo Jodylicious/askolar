@@ -9,10 +9,11 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, on
 const firebaseConfig = {
   apiKey: "AIzaSyDWdxPUsgw9FYuEpp7t3HQlZGKJG07wkvQ",
   authDomain: "login-auth-adbb2.firebaseapp.com",
+  databaseURL: "https://login-auth-adbb2-default-rtdb.firebaseio.com",
   projectId: "login-auth-adbb2",
   storageBucket: "login-auth-adbb2.appspot.com",
   messagingSenderId: "938130585688",
-  appId: "1:938130585688:web:7ca611556289c06968322d"
+  appId: "1:938130585688:web:d726540612243cef68322d"
 };
 
 // Initialize Firebase
@@ -31,9 +32,10 @@ export function logout() {
   return signOut(auth);
 }
 
+
 // Custom Hook
 export function useAuth() {
-  const [ currentUser, setCurrentUser ] = useState();
+  const [currentUser, setCurrentUser] = useState();
 
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, user => setCurrentUser(user));
