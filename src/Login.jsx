@@ -15,7 +15,7 @@ export default function Login() {
       await signup(emailRef.current.value, passwordRef.current.value);
     }
     catch {
-      alert("You must enter a valid email address or email is already exists.");
+      alert("The email and password must be fill or the account you enter is already exist.");
     }
     setLoading(false);
   }
@@ -24,10 +24,11 @@ export default function Login() {
     setLoading(true);
     try {
       await login(emailRef.current.value, passwordRef.current.value);
+      alert("You have succesfully logged in.");
     }
 
     catch {
-      alert(" The email or password you enter is incorrect");
+      alert(" The email or password you enter is incorrect.");
     }
     setLoading(false);
   }
@@ -36,6 +37,7 @@ export default function Login() {
     setLoading(true);
     try {
       await logout();
+      alert("You have been logged out.");
     } catch {
       alert("Error!");
     }
@@ -89,6 +91,9 @@ export default function Login() {
           <img className="loginImage" src="https://static.vecteezy.com/system/resources/previews/003/689/225/non_2x/online-registration-or-sign-up-login-for-account-on-smartphone-app-user-interface-with-secure-password-mobile-application-for-ui-web-banner-access-cartoon-people-illustration-vector.jpg" alt="loginImage" />
         </div>
 
+        <div className="wel-header">
+          <p><h5>You can visit our website at <a href="https://jodylicious.github.io/myapp/">https://jodylicious.github.io/myapp/</a></h5></p>
+        </div>
 
       </div>
     </div>
